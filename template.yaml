@@ -1,0 +1,17 @@
+#!/Path/to/musiclib_yaml.py
+
+- options:
+    baseDirectory: "~/Where/the/music/is/at"
+
+- path: "subdirectory_in_baseDirectory"
+  songs:
+    - title: "Song Name"
+      url: "youtube.com"
+      fallback:
+        - "incase first fails"
+        - "long list"
+      artist: ""
+      tracknumber: ""
+      totaltracks: ""
+      album: ""
+      year: ""
